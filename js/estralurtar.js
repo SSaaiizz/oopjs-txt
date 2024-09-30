@@ -1,4 +1,5 @@
-class Estralurtar extends Jokalari{
+import { jokalari } from '../js/jokalari.js';
+class estralurtar extends jokalari{
     constructor(izena){
        this.izena = izena.reverse();
        this.indarra = Math.random*85;

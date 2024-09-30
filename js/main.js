@@ -1,3 +1,8 @@
+import { jokalari } from '../js/jokalari.js';
+import { gizaki } from '../js/gizaki.js';
+import { makina } from '../js/makina.js';
+import { estralurtar } from '../js/estralurtar.js';
+
 let gizakiak = [];
 let estralurtarrak = [];
 let makinak = [];
