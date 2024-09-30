@@ -7,9 +7,6 @@ this.osasuna=osasuna;
 this.indarra=indarra;
 
    }
-   constructor(izena){
-    this.izena=izena;
-       }
     static getIzena(){
       return this.izena;
     }
