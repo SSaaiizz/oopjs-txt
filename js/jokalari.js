@@ -22,9 +22,11 @@ this.indarra=indarra;
           this.osasuna -= j2.indarra;
           }
     
-    if(j2.osasuna==0){
+    if(j2.osasuna<=0){
+      j2.osasuna=0;
       return this.izena;
     }else{
+      this.osasuna=0;
       return j2.izena;
     }
     }}
