@@ -1,6 +1,5 @@
-class gizaki extends jokalari{
+class Gizaki extends Jokalari{
     constructor(izena){
-      super();
         this.izena = izena;
        this.indarra = 70;
        this.osasuna = 150;

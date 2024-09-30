@@ -1,4 +1,4 @@
-class jokalari{
+class Jokalari{
    constructor(izena,osasuna,indarra){
 this.izena=izena;
 this.osasuna=osasuna;
