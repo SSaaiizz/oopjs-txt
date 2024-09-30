@@ -1,6 +1,6 @@
 class estralurtar extends jokalari{
-    constructor(index){
-       this.izena = "e" + index+1;
+    constructor(izena){
+       this.izena = izena.reverse();
        this.indarra = Math.random*85;
        this.osasuna = 150;
     }

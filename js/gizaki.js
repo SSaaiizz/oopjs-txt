@@ -1,7 +1,7 @@
 class gizaki extends jokalari{
-    constructor(index){
+    constructor(izena){
       super();
-        this.izena = "g" + index+1;
+        this.izena = izena;
        this.indarra = 70;
        this.osasuna = 150;
     }

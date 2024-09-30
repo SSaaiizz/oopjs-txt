@@ -1,6 +1,6 @@
 class makina extends jokalari{
-    constructor(index){
-       this.izena = "m" + index+1;
+    constructor(izena){
+       this.izena = izena;
        this.indarra = Math.random*100;
        this.osasuna = 130;
     }

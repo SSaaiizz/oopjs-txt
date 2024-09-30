@@ -3,12 +3,10 @@ let estralurtarrak = [];
 let makinak = [];
 
 for (let i=0; i<50;i++){
-    let gizakia = new gizaki(i);
-    let estralurtarra = new estralurtar(i);
-    let maki = new makina(i);
-  gizakiak.push(gizakia);
-  estralurtarrak.push(estralurtarra);
-  makinak.push(maki);
+    gizakiak.push(new gizaki(`g${i}`));
+    estralurtarrak.push(new estralurtar(`e${i}`));
+    makinak.push(new makina(`m${i}`));
+
 }
 
 let Lista = [...gizakiak, ...estralurtarrak, ...makinak];
