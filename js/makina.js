@@ -1,5 +1,5 @@
-import { jokalari } from '../js/jokalari.js';
-class makina extends jokalari{
+import { Jokalari } from '../js/jokalari.js';
+class Makina extends Jokalari{
     constructor(izena){
       super(izena,Math.random()*100,130)
     

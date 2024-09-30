@@ -1,5 +1,5 @@
-import { jokalari } from '../js/jokalari.js';
-class gizaki extends jokalari{
+import { Jokalari } from '../js/jokalari.js';
+class Gizaki extends Jokalari{
     constructor(izena){
       super(izena, 70, 150)
      

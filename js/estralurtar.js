@@ -1,5 +1,5 @@
-import { jokalari } from '../js/jokalari.js';
-class estralurtar extends jokalari{
+import { Jokalari } from '../js/jokalari.js';
+class Estralurtar extends Jokalari{
     constructor(izena){
       const izenaa = izena.split('').reverse().join('');
       super(izenaa,Math.random()*85,150)

@@ -1,4 +1,4 @@
-export class jokalari{
+export class Jokalari{
   
   
   constructor(izena,osasuna,indarra){
