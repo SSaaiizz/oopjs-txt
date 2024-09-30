@@ -24,4 +24,6 @@ function desordenatu(array){     //fisher-yates algoritmoa erabiliz
 
 let zelaia = desordenatu(Lista);
 
-
+for(let i = 0; i < zelaia.length-1; i+=2){
+    zelaia[i].borrokatu(zelaia[i+1])
+}

@@ -14,7 +14,7 @@ class jokalari{
           this.osasuna -= j2.indarra;
           }
     
-    if(j2.osasuna=0){
+    if(j2.osasuna==0){
       return this.izena;
     }else{
       return j2.izena;
