@@ -1,4 +1,4 @@
-class Jokalari{
+export class Jokalari{
   
   
   constructor(izena,osasuna,indarra){
@@ -7,10 +7,10 @@ this.osasuna=osasuna;
 this.indarra=indarra;
 
    }
-    static getIzena(){
+    getIzena(){
       return this.izena;
     }
-    static borrokatu(j2){
+     borrokatu(j2){
     while(j2.osasuna>0 && this.osasuna>0){
       if ( Math.random()* this.indarra > j2.indarra)
           {
