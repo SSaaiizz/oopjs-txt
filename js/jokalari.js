@@ -1,5 +1,10 @@
 class jokalari{
-   
+   constructor(izena,osasuna,indarra){
+this.izena=izena;
+this.osasuna=osasuna;
+this.indarra=indarra;
+
+   }
     static getIzena(){
       return this.izena;
     }
