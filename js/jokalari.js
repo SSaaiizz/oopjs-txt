@@ -6,6 +6,7 @@ this.izena=izena;
 this.osasuna=osasuna;
 this.indarra=indarra;
 
+
    }
     getIzena(){
       return this.izena;
